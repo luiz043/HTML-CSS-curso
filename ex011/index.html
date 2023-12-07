@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>bom dia </p>
+        <picture>
+            <!--quando chegar na largura mudara a imagem -->
+            <source media="(max-width:725px)" srcset="imagens/P.png" type="image/png">
+            <source media="(max-width:1025px)" srcset="imagens/M.png" type="image/png">
+            <img src="imagens/G.png" alt="imagem grande">
+        </picture>
+        <h1>vamos tocar audio</h1>
+        <p>
+            <audio preload="metadata" controls>
+                <source src="media/It Was a Time - TrackTribe.mp3" type="audio/mpeg">
+            </audio>
+            
+        </p>
+   
+    
+</body>
+</html>
